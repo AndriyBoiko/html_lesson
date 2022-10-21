@@ -1,0 +1,31 @@
+.block {
+    width: 100%;
+    background-color: blue;
+}
+.block-text{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.head-block {
+    height: 250px;
+}
+
+.small-blocks {
+    display: flex;
+    grid-gap: 20px;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.small-block {
+    width: 33%;
+    height: 150px;
+    background-color: blueviolet;
+}
+
+.footer-block {
+    height: 400px;
+}
